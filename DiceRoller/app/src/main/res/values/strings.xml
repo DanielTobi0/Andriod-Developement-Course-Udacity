@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="to">to</string>
+    <string name="from">from</string>
+    <string name="message">message</string>
+    <string name="button">myButton</string>
+    <string name="send">send</string>
+    <string name="hello_android">Hello Android!!</string>
+    <string name="roll">Roll Die</string>
+</resources>
