@@ -8,8 +8,6 @@ import android.widget.TextView
 import android.widget.Toast
 import java.util.*
 
-//import kotlin.random.Random
-
 class MainActivity : AppCompatActivity() {
 
     lateinit var diceImage: ImageView
