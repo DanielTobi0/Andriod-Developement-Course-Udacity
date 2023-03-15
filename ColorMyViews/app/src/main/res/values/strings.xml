@@ -12,4 +12,6 @@
     <string name="button_red">RED</string>
     <string name="button_yellow">YELLOW</string>
     <string name="button_green">GREEN</string>
+    <string name="how_to_play_this">How to play</string>
+    <string name="how_to_play_2">tap on the boxes to review colors</string>
 </resources>
