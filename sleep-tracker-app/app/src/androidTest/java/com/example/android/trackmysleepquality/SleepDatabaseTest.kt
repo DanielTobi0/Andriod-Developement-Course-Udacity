@@ -29,11 +29,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import java.io.IOException
 
-/**
- * This is not meant to be a full set of tests. For simplicity, most of your samples do not
- * include tests. However, when building the Room, it is helpful to make sure it works before
- * adding the UI.
- */
 
 @RunWith(AndroidJUnit4::class)
 class SleepDatabaseTest {
@@ -61,7 +56,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun insertAndGetNight() {
+    suspend fun insertAndGetNight() {
         val night = SleepNight()
         sleepDao.insert(night)
         val tonight = sleepDao.getTonight()
