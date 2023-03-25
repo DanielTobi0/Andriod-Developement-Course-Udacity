@@ -21,17 +21,17 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
+
 @Database(entities = [SleepNight::class], version = 1, exportSchema = false)
 abstract class SleepDatabase : RoomDatabase() {
+
 
     abstract val sleepDatabaseDao: SleepDatabaseDao
 
 
     companion object {
-
         @Volatile
         private var INSTANCE: SleepDatabase? = null
-
 
         fun getInstance(context: Context): SleepDatabase {
             // Multiple threads can ask for the database at the same time, ensure we only initialize
